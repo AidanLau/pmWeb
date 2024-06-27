@@ -1,0 +1,45 @@
+* {padding: 0; margin: 0; box-sizing: border-box; font-family: sans-serif;}
+h1, h2, h3, h4, h5, h6 {font-weight: normal;}
+p {padding-top: 15px;}
+
+header {position: sticky;top: 0;background-color: white;}
+header div.top {
+	padding: 1rem;
+	background-image: url("Values.png");
+	background-repeat: no-repeat;
+	background-size: 80%;
+	background-position: bottom ;
+	background-position-x: 10rem;
+	display: flex;
+}
+header div.top h1 {font-size: 1.2rem;}
+
+#navbar {background-color: black; position: sticky; top: 0;}
+#navbar ul {display: flex; list-style-type: none; }
+#navbar ul li {padding: 0.5rem 1%;}
+#navbar ul li a {color: white; text-decoration: none;font-size: 0.8rem; transition: all 0.3s ease;}
+#navbar ul li a:hover {color:aquamarine;}
+#navbar .active {color: rgb(144, 245, 211);}
+
+main {display: flex;flex-wrap: wrap;}
+main section {padding: 1rem;}
+
+section.left {flex: 1 1 100px; background-color: rgb(243, 243, 243);}
+section.left h3 {margin-bottom: 0.5rem;}
+section.left ol {padding: 0.1rem; margin-bottom: 0.5rem;font-size: 0.8rem; list-style-type: none;}
+
+section.right {flex: 10 1 600px;}
+
+
+table {font-family: Arial, Helvetica, sans-serif; font-size: 15px; border-collapse: collapse; width: 100%; padding: 1rem 1rem;}
+td, th {border: 1px solid #ddd; padding: 3px;}
+tr:nth-child(even){background-color: #f2f2f2;}
+tr:hover {background-color: #ddd;}
+th {padding-top: 5px; padding-bottom: 5px; text-align: left; background-color: #4391da; color: white;}
+
+div.CRcm {padding: 1rem;margin-bottom: 1rem;}
+div.SUsum {padding: 1rem; margin-bottom: 1rem;}
+div.GeneralComment {padding: 1rem;list-style-type: decimal;}
+div.GeneralComment u li {padding: 2.5rem;}
+
+iframe {position: absolute; top: 100; left: 100; width: 80%; height: 80%; border: none;}

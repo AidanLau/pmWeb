@@ -1,0 +1,32 @@
+* {padding: 0; margin: 0; box-sizing: border-box; font-family: sans-serif;}
+h1, h2, h3, h4, h5, h6 {font-weight: normal;}
+p {padding-top: 15px;}
+
+header {position: sticky;top: 0;background-color: white;}
+header div.top {
+	padding: 1rem;
+	background-image: url("Values.png");
+	background-repeat: no-repeat;
+	background-size: 80%;
+	background-position: bottom ;
+	background-position-x: 10rem;
+	display: flex;
+}
+
+header {vertical-align: top;}
+header div.top h1 {font-size: 1.2rem;}
+
+#navbar {background-color: black; position: sticky; top: 0;}
+#navbar ul {display: flex; list-style-type: none; }
+#navbar ul li {padding: 0.5rem 1%;}
+#navbar ul li a {color: white; text-decoration: none;font-size: 0.8rem; transition: all 0.3s ease;}
+#navbar ul li a:hover {color:aquamarine;}
+#navbar .active {color: rgb(144, 245, 211);}
+
+main {display: flex;flex-wrap: wrap;padding: 1rem;}
+
+main table {font-family: Arial, Helvetica, sans-serif; font-size: 15px; border-collapse: collapse; width: 100%; padding: 1rem 1rem;}
+main tr:nth-child(even){background-color: #f2f2f2;}
+main tr:hover {background-color: #ddd;}
+main th {padding-top: 1px; padding-bottom: 1px; text-align: left; background-color: white; color: black;}
+main th {border: 1px solid #ddd; padding: 1px; font-size: small;}
